@@ -1,0 +1,23 @@
+{
+	"keyName":[
+       {
+    	   "name":"姓名",
+    	   "key":"name"
+       },
+       {
+		   "name":"身份证",
+    	   "key":"cardId"
+       },
+       {
+		   "name":"电话",
+    	   "key":"phone"
+       }
+	],
+	"dataList":[
+	    {
+			"name":"刘云和",
+			"cardId":"420100199900002222",
+			"phone":"13333333333"
+		}
+	]
+}

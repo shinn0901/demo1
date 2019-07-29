@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="assets/js/jQueryTime/need/laydate.css"/>
+		<link rel="stylesheet" type="text/css" href="assets/js/jQueryTime/skins/default/laydate.css"/>
+		<script src="assets/js/jQueryTime/laydate.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<h5>有效时间：</h5>
+		<div class="input-box">
+			<input type="text" id="dateinfo" class="time" placeholder="有效开始时间" name="fdyxkssj" value="" />
+			<span>~</span>
+			<input type="text" id="fdyxjssj" class="time" placeholder="有效结束时间" name="fdyxjssj" value="" />
+			<span class="required">*</span>
+		</div>
+		
+		<script type="text/javascript">
+			$(function(){
+			var start = {
+		
+				elem: '#dateinfo',
+		
+				format: 'YYYY-MM-DD',
+		
+				min: laydate.now(-10), //设定最小日期为当前日期
+		
+				max: '2050-12-31', //最大日期
+		
+				istime: true,
+		
+				istoday: false,
+		
+				choose: function(datas) {
+		
+					end.min = datas; //开始日选好后，重置结束日的最小日期
+		
+					end.start = datas //将结束日的初始值设定为开始日
+		
+				}
+		
+			};
+		
+			var end = {
+		
+				elem: '#fdyxjssj',
+		
+				format: 'YYYY-MM-DD',
+				
+				min:laydate.now(),
+		
+				max: '2050-12-31',
+		
+				istime: true,
+		
+				istoday: false,
+		
+				choose: function(datas) {
+		
+					start.max = datas; //结束日选好后，充值开始日的最大日期
+		
+				}
+		
+			};
+				$('#dateinfo').on('click',function(){
+					laydate(start);
+				})
+				
+				$('#fdyxjssj').on('click',function(){
+					laydate(end);
+				})
+			})
+		</script>
+	</body>
+</html>

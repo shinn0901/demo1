@@ -1,0 +1,49 @@
+{
+    "keyName": [
+        {
+            "name": "车牌号码",
+            "key": "carNum"
+        },
+        {
+            "name": "所有人",
+            "key": "JDCSYR"
+        },
+        {
+            "name": "驾驶证号",
+            "key": "JZZL"
+        },
+        {
+            "name": "号牌类型",
+            "key": "HPLX"
+        },
+        {
+            "name": "车辆类型",
+            "key": "CLZL"
+        },
+        {
+            "name": "车身颜色",
+            "key": "CSYS"
+        },
+        {
+            "name": "行驶证发放日期",
+            "key": "FZRQ"
+        },
+        {
+            "name": "联系电话",
+            "key": "FZRQ"
+        },
+        {
+            "name": "name",
+            "key": "carNum"
+        }
+    ],
+    "data": {
+        "carNum": "鄂A79C87",
+        "JSZH": "420111198112305618",
+        "HPLX": "小型汽车",
+        "JDCSYR": "刘延春",
+        "CLZL": "小型普通客车",
+        "CSYS": "灰色",
+        "FZRQ": "2011-12-0809: 37: 11"
+    }
+}

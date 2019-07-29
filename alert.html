@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>标题</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+		<script src="assets/js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+//				$.lightBox('smart-search.html');
+								var d = dialog({   //这是loading
+					width: 60,
+					height: 60
+				});
+				d.show();
+				
+				setTimeout(function(){
+					d.close().remove();
+				},5000)
+				
+				
+//				var d = dialog({   //这是loading
+//					width: 60,
+//					height: 60
+//				});
+//				d.show();
+				
+//				var d = dialog({    //这是多按钮对话框，事件自定义
+//					content:'这是一条短消息',
+//					button: [
+//						        {
+//						            value: '同意',
+//						            callback: function () {
+//						                this.content('你同意了');
+//						                return false;
+//						            },
+//						            autofocus: true
+//						        },
+//						        {
+//						            value: '不同意',
+//						            callback: function () {
+//						                alert('你不同意')
+//						            }
+//						        },
+//						        {
+//						            id: 'button-disabled',
+//						            value: '无效按钮',
+//						            disabled: true
+//						        },
+//						        {
+//						            value: '关闭我'
+//						        }
+//						    ]
+//				})
+//				d.show();
+				
+				
+				
+//				var d = dialog({    //确认与取消
+//				    title: '提示',
+//				    content: '按钮回调函数返回 false 则不许关闭',
+//				    okValue: '确定',
+//				    ok: function () {
+//				        this.title('提交中…');
+//				        return false;
+//				    },
+//				    cancelValue: '取消',
+//				    cancel: function () {}
+//				});
+//				d.show();
+				
+//				var d = dialog({   //显示气泡提示
+//				    content: 'Hello World!',
+//				    quickClose: true// 点击空白处快速关闭
+//				});
+//				d.show(document.querySelector('.middle'));
+
+				//关闭方法
+				// d.close().remove();
+
+		});
+		</script>
+	</head>
+	<body>
+		<div class="middle" onclick="$.lightBox('acccess-controller.html')">
+			13123123123123123
+			<label></label>
+		</div>
+		
+		
+		<div id="light-box-button">
+			<div id="light-box"></div>
+		</div>
+	</body>
+</html>

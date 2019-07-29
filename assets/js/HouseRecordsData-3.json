@@ -1,0 +1,22 @@
+{
+	"keyName":[
+       {
+    	   "name":"车牌号",
+    	   "key":"cardNum"
+       },
+       {
+		   "name":"车主",
+    	   "key":"owner"
+       }
+	],
+	"dataList":[
+        {
+			"cardNum":"鄂A-11111",
+			"owner":"张晓明"
+		},
+		{
+			"cardNum":"鄂A-11111",
+			"owner":"黄晓明"
+		}
+	]
+}

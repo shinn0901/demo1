@@ -1,0 +1,28 @@
+{
+	"keyName":[
+       {
+    	   "name":"同住人",
+    	   "key":"name"
+       },
+       {
+		   "name":"性别",
+    	   "key":"sex"
+       },
+       {
+		   "name":"门禁ID",
+    	   "key":"code"
+       }
+	],
+	"dataList":[
+        {
+			"name":"张文娟",
+			"sex":"女",
+			"code":"14635786"
+		},
+		{
+			"name":"范义华",
+			"sex":"男",
+			"code":"7333609"
+		}
+	]
+}

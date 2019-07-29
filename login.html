@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="renderer" content="webkit" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="keywords" content="关键字" />
+		<meta name="distribution" content="搜索引擎描述" />
+		<link rel="icon" href="assets/i/favicon.png" />
+		<title>光谷智慧平安小区系统</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+		<script src="assets/js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('.other-button .remember-username').on('click',function(){
+					var _this = $(this);
+					if(_this.hasClass('checked')){
+						//取消选中
+						_this.removeClass('checked');
+					}
+					else{
+						//选中
+						_this.addClass('checked');
+					}
+					return false;
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<div id="wrapper-box" class="login-page">
+			<div class="login-container">
+				<div class="login-box">
+					<div class="login-form">
+					<form>
+						<ul>
+							<li>
+								<input type="text" value="" />	
+							</li>
+							<li>
+								<input type="password" value="" />
+							</li>
+						</ul>
+						<div class="other-button">
+							<a href="#" class="forget-password">忘记密码？</a>
+							<div class="remember-username">记住账号</div>
+						</div>
+						<input class="submit" type="submit" value="登　录" />
+					</form>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</body>
+</html>

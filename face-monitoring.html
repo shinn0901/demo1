@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="renderer" content="webkit" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="keywords" content="关键字" />
+		<meta name="distribution" content="搜索引擎描述" />
+		<link rel="icon" href="assets/i/favicon.png" />
+		<title>项目名称</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/sub.css"/>
+	</head>
+	<body>
+		<div class="face-monitoring">
+			<!-- 顶部的筛选块 -->
+			<div class="layout-top-button">
+				<div class="data-plugin-topButton">
+					<ul class="clearfix">
+						<li>
+							<a href="#">
+								<i class="iconfont" style="color:#4971db;">
+									&#xe654;
+									<span class="msg-count">0</span>
+								</i>
+								<div class="text">
+									<b>涉恐人员</b>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="iconfont" style="color:#8d44cf;">
+									&#xe655;
+									<span class="msg-count">999</span>
+								</i>
+								<div class="text">
+									<b>涉稳人员</b>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="iconfont" style="color:#385ab1;">
+									&#xe653;
+									<span class="msg-count">0</span>
+								</i>
+								<div class="text">
+									<b>刑事犯罪<br />前科人员</b>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="iconfont" style="color:#0d8a93;">
+									&#xe650;
+									<span class="msg-count">0</span>
+								</i>
+								<div class="text">
+									<b>涉毒人员</b>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="iconfont" style="color:#a65276;">
+									&#xe64e;
+									<span class="msg-count">0</span>
+								</i>
+								<div class="text">
+									<b>在逃人员</b>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:void($.lightBox('access-monitoring.html'))">
+								<i class="iconfont" style="color:#b44f0f;">
+									&#xe651;
+									<span class="msg-count">0</span>
+								</i>
+								<div class="text">
+									<b>肇事肇祸精<br />神障碍患者</b>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="iconfont" style="color:#653acb;">
+									&#xe64f;
+									<span class="msg-count">0</span>
+								</i>
+								<div class="text">
+									<b>重点上访<br />人员</b>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="iconfont" style="color:#6b8a2d;">
+									&#xe652;
+									<span class="msg-count">0</span>
+								</i>
+								<div class="text">
+									<b>重点监控<br />人员</b>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="iconfont" style="color:#d4761d;">
+									&#xe656;
+									<span class="msg-count">0</span>
+								</i>
+								<div class="text">
+									<b>涉黄人员</b>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<!-- 中间的表格 -->
+			<div class="layout-content-data">
+			
+				<div class="member-list">
+					<div class="data-plugin-table">
+						<table border="0" cellspacing="1" cellpadding="1">
+							<tr class="title">
+								<th colspan="6">
+									<i class="iconfont">&#xe657;</i>
+									<b>重点人员库监测比对</b>
+								</th>
+							</tr>
+							<tr>
+								<th>#</th>
+								<th>小区拍摄照片</th>
+								<th>公安比对照片</th>
+								<th>相似度</th>
+								<th>拍摄时间</th>
+								<th>备注</th>
+							</tr>
+							<tr class="icon-danger">
+								<td>001</td>
+								<td>
+									<div class="photo-img">
+										<a href="#" onclick="$.lightBox('lightBox-face-contrast.html')">
+											<img src="assets/images/test.jpg" alt="" />
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="photo-img">
+										<a href="#">
+											<img src="assets/images/test.jpg" alt="" />
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="core-value">
+										<a href="#">88%</a>
+									</div>
+								</td>
+								<td>2017-07-27 14:22:21</td>
+								<td>
+									<div class="input-select">
+										<select>
+											<option value="未备注" selected="selected">未备注</option>
+											<option value="涉恐人员">涉恐人员</option>
+											<option value="涉稳人员">涉稳人员</option>
+											<option value="刑事犯罪前科人员">刑事犯罪前科人员</option>
+											<option value="涉毒人员">涉毒人员</option>
+											<option value="在逃人员">在逃人员</option>
+											<option value="肇事肇祸精神障碍患者">肇事肇祸精神障碍患者</option>
+											<option value="重点上访人员">重点上访人员</option>
+											<option value="重点监控人员">重点监控人员</option>
+											<option value="涉黄人员">涉黄人员</option>
+										</select>
+									</div>
+								</td>
+							</tr>
+							<tr class="icon-danger">
+								<td>002</td>
+								<td>
+									<div class="photo-img">
+										<a href="#">
+											<img src="assets/images/test.jpg" alt="" />
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="photo-img">
+										<a href="#">
+											<img src="assets/images/test.jpg" alt="" />
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="core-value">
+										<a href="#">88%</a>
+									</div>
+								</td>
+								<td>2017-07-27 14:22:21</td>
+								<td>
+									<div class="input-select">
+										<select>
+											<option value="未备注" selected="selected">未备注</option>
+											<option value="涉恐人员">涉恐人员</option>
+											<option value="涉稳人员">涉稳人员</option>
+											<option value="刑事犯罪前科人员">刑事犯罪前科人员</option>
+											<option value="涉毒人员">涉毒人员</option>
+											<option value="在逃人员">在逃人员</option>
+											<option value="肇事肇祸精神障碍患者">肇事肇祸精神障碍患者</option>
+											<option value="重点上访人员">重点上访人员</option>
+											<option value="重点监控人员">重点监控人员</option>
+											<option value="涉黄人员">涉黄人员</option>
+										</select>
+									</div>
+								</td>
+							</tr>
+						</table>
+						<div class="data-plugin-page">
+							<div class="left">
+								<a href="#">&lt;</a>
+								<a class="hover" href="#">1</a>
+								<a href="#">2</a>
+								<a href="#">3</a>
+								<a href="#">4</a>
+								<a href="#">5</a>
+								<a href="#">...</a>
+								<a href="#">9</a>
+								<a href="#">&gt;</a>
+							</div>
+							<div class="right">显示1~9条 共100条</div>
+						</div>
+					</div>
+				</div>
+				
+			
+				<div class="member-list">
+					<div class="data-plugin-table">
+						<table border="0" cellspacing="1" cellpadding="1">
+							<tr class="title">
+								<th colspan="5">
+									<i class="iconfont">&#xe658;</i>
+									<b>行为明细</b>
+								</th>
+							</tr>
+							<tr>
+								<th>#</th>
+								<th>姓名</th>
+								<th>监控编号</th>
+								<th>扫描时间</th>
+								<th>&nbsp;</th>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">张子杰</a>
+									</div>
+								</td>
+								<td>42010344260</td>
+								<td>2017-07-31 19:30:27</td>
+								<td><a href="#">查看照片</a></td>
+							</tr>
+							<tr class="icon-danger">
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">张子杰</a>
+									</div>
+								</td>
+								<td>42010344260</td>
+								<td>2017-07-31 19:30:27</td>
+								<td><a href="#">查看照片</a></td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">张子杰</a>
+									</div>
+								</td>
+								<td>42010344260</td>
+								<td>2017-07-31 19:30:27</td>
+								<td><a href="#">查看照片</a></td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">张子杰</a>
+									</div>
+								</td>
+								<td>42010344260</td>
+								<td>2017-07-31 19:30:27</td>
+								<td><a href="#">查看照片</a></td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">张子杰</a>
+									</div>
+								</td>
+								<td>42010344260</td>
+								<td>2017-07-31 19:30:27</td>
+								<td><a href="#">查看照片</a></td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">张子杰</a>
+									</div>
+								</td>
+								<td>42010344260</td>
+								<td>2017-07-31 19:30:27</td>
+								<td><a href="#">查看照片</a></td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">张子杰</a>
+									</div>
+								</td>
+								<td>42010344260</td>
+								<td>2017-07-31 19:30:27</td>
+								<td><a href="#">查看照片</a></td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">张子杰</a>
+									</div>
+								</td>
+								<td>42010344260</td>
+								<td>2017-07-31 19:30:27</td>
+								<td><a href="#">查看照片</a></td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">张子杰</a>
+									</div>
+								</td>
+								<td>42010344260</td>
+								<td>2017-07-31 19:30:27</td>
+								<td><a href="#">查看照片</a></td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">张子杰</a>
+									</div>
+								</td>
+								<td>42010344260</td>
+								<td>2017-07-31 19:30:27</td>
+								<td><a href="#">查看照片</a></td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">张子杰</a>
+									</div>
+								</td>
+								<td>42010344260</td>
+								<td>2017-07-31 19:30:27</td>
+								<td><a href="#">查看照片</a></td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">张子杰</a>
+									</div>
+								</td>
+								<td>42010344260</td>
+								<td>2017-07-31 19:30:27</td>
+								<td><a href="#">查看照片</a></td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">张子杰</a>
+									</div>
+								</td>
+								<td>42010344260</td>
+								<td>2017-07-31 19:30:27</td>
+								<td><a href="#">查看照片</a></td>
+							</tr>
+						</table>
+						<div class="data-plugin-page">
+							<div class="left">
+								<a href="#">&lt;</a>
+								<a class="hover" href="#">1</a>
+								<a href="#">2</a>
+								<a href="#">3</a>
+								<a href="#">4</a>
+								<a href="#">5</a>
+								<a href="#">...</a>
+								<a href="#">9</a>
+								<a href="#">&gt;</a>
+							</div>
+							<div class="right">显示1~9条 共100条</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="renderer" content="webkit" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="keywords" content="关键字" />
+		<meta name="distribution" content="搜索引擎描述" />
+		<link rel="icon" href="assets/i/favicon.png" />
+		<title>项目名称</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/sub.css"/>
+		<script type="text/javascript">
+			$(function(){
+				$('.member-list table td').on('click',function(){
+					//$(this).parents('tr').addClass('selected').siblings('tr').removeClass('selected');
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<div class="car-monitoring">
+			<!-- 顶部的筛选块 -->
+			<div class="layout-top-button">
+				<div class="data-plugin-topButton">
+					<ul class="clearfix">
+						<li>
+							<a href="#">
+								<i class="iconfont" style="color:#723bff;">&#xe66e;</i>
+								<div class="text">
+									<h6>今日进入车辆</h6>
+									<p><i>5048</i></p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="iconfont" style="color:#00a2ff;">&#xe66c;</i>
+								<div class="text">
+									<h6>今日外出车辆</h6>
+									<p><i>5048</i></p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="iconfont" style="color:#70c316;">&#xe66b;</i>
+								<div class="text">
+									<h6>小区现有车辆</h6>
+									<p><i>5048</i></p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="iconfont" style="color:#e4bf2d;">&#xe66d;</i>
+								<div class="text">
+									<h6>小区现有停车位</h6>
+									<p><i>5048</i></p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<!-- 中间的表格 -->
+			<div class="layout-content-data">
+				<div class="member-list">
+					<div class="data-plugin-table">
+						<table border="0" cellspacing="1" cellpadding="1">
+							<tr class="title">
+								<th colspan="5">
+									<i class="iconfont">&#xe665;</i>
+									<b>卡口识别记录</b>
+								</th>
+							</tr>
+							<tr>
+								<th>#</th>
+								<th>卡扣识别ID</th>
+								<th>车辆牌照</th>
+								<th>卡口拍照时间</th>
+								<th>监控编号</th>
+								<th>车辆类型</th>
+								<th>状态</th>
+								<th>备注信息</th>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value"><a href="#">4211021977025</a></div>
+								</td>
+								<td>鄂A 29FFD8</td>
+								<td>2015-09-30 22:30:15</td>
+								<td>#N003001</td>
+								<td>外来车辆</td>
+								<td>出</td>
+								<td>
+									<div class="highlight-value green">
+										<span>正常车辆</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value"><a href="#">4211021977025</a></div>
+								</td>
+								<td>鄂A 29FFD8</td>
+								<td>2015-09-30 22:30:15</td>
+								<td>#N003001</td>
+								<td>外来车辆</td>
+								<td>出</td>
+								<td>
+									<div class="highlight-value blue">
+										<span>无牌车辆</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value"><a href="#">4211021977025</a></div>
+								</td>
+								<td>鄂A 29FFD8</td>
+								<td>2015-09-30 22:30:15</td>
+								<td>#N003001</td>
+								<td>外来车辆</td>
+								<td>出</td>
+								<td>
+									<div class="highlight-value orange">
+										<span>关注车辆</span>
+									</div>
+								</td>
+							</tr>
+						</table>
+						<div class="data-plugin-page">
+							<div class="left">
+								<a href="#">&lt;</a>
+								<a class="hover" href="#">1</a>
+								<a href="#">2</a>
+								<a href="#">3</a>
+								<a href="#">4</a>
+								<a href="#">5</a>
+								<a href="#">...</a>
+								<a href="#">9</a>
+								<a href="#">&gt;</a>
+							</div>
+							<div class="right">显示1~9条 共100条</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</body>
+</html>

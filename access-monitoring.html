@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>项目名称</title>
+		<meta name="renderer" content="webkit" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="keywords" content="关键字" />
+		<meta name="distribution" content="搜索引擎描述" />
+		<link rel="icon" href="assets/i/favicon.png" />
+		<link rel="stylesheet" type="text/css" href="assets/css/sub.css"/>
+		<script type="text/javascript">
+			$(function(){
+				$('.member-list table td').on('click',function(){
+					//$(this).parents('tr').addClass('selected').siblings('tr').removeClass('selected');
+				})
+				$('.switch-button .button-box').on('click',function(){
+					var sta = $(this).attr('data-status');
+					var td = $(this).parents('td').eq(0);
+					var macVal = td.prev().val();
+					if(sta == 'off'){
+						$(this).attr('data-status','on');
+					}
+					else{
+						$(this).attr('data-status','off');
+					}
+					alert(macVal); //这个值应该就是你要的mac地址
+					return false;
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<div class="access-monitoring">
+			<!-- 中间的表格 -->
+			<div class="layout-content-data">
+			
+				<div class="member-list">
+					<div class="data-plugin-table">
+						<table border="0" cellspacing="1" cellpadding="1">
+							<tr class="title">
+								
+							</tr>
+							<tr>
+								<th>#</th>
+								<th>门禁卡号</th>
+								<th>姓名</th>
+								<th>状态</th>
+								<th>刷卡时间</th>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">42010344260</a>
+									</div>
+								</td>
+								<td>张子杰</td>
+								<td>进</td>
+								<td>2017-07-31 19:30:27</td>
+							</tr>
+							<tr>
+								<td>110</td>
+								<td>
+									<div class="core-value">
+										<a href="#">42010344260</a>
+									</div>
+								</td>
+								<td>张子杰</td>
+								<td>出</td>
+								<td>2017-07-31 19:30:27</td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">42010344260</a>
+									</div>
+								</td>
+								<td>张子杰</td>
+								<td>进</td>
+								<td>
+									<span class="switch-button">
+										<b>未布控</b>
+										<div class="button-box" data-status="off"><i></i></div>
+										<b>已布控</b>
+									</span>
+									<!--2017-07-31 19:30:27-->
+								</td>
+							</tr>
+							<tr>
+								<td>110</td>
+								<td>
+									<div class="core-value">
+										<a href="#">42010344260</a>
+									</div>
+								</td>
+								<td>张子杰</td>
+								<td>出</td>
+								<td>2017-07-31 19:30:27</td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">42010344260</a>
+									</div>
+								</td>
+								<td>张子杰</td>
+								<td>进</td>
+								<td>2017-07-31 19:30:27</td>
+							</tr>
+							<tr>
+								<td>110</td>
+								<td>
+									<div class="core-value">
+										<a href="#">42010344260</a>
+									</div>
+								</td>
+								<td>张子杰</td>
+								<td>出</td>
+								<td>2017-07-31 19:30:27</td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">42010344260</a>
+									</div>
+								</td>
+								<td>张子杰</td>
+								<td>进</td>
+								<td>2017-07-31 19:30:27</td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">42010344260</a>
+									</div>
+								</td>
+								<td>张子杰</td>
+								<td>进</td>
+								<td>2017-07-31 19:30:27</td>
+							</tr>
+							<tr>
+								<td>110</td>
+								<td>
+									<div class="core-value">
+										<a href="#">42010344260</a>
+									</div>
+								</td>
+								<td>张子杰</td>
+								<td>出</td>
+								<td>2017-07-31 19:30:27</td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">42010344260</a>
+									</div>
+								</td>
+								<td>张子杰</td>
+								<td>进</td>
+								<td>2017-07-31 19:30:27</td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">42010344260</a>
+									</div>
+								</td>
+								<td>张子杰</td>
+								<td>进</td>
+								<td>2017-07-31 19:30:27</td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">42010344260</a>
+									</div>
+								</td>
+								<td>张子杰</td>
+								<td>进</td>
+								<td>2017-07-31 19:30:27</td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">42010344260</a>
+									</div>
+								</td>
+								<td>张子杰</td>
+								<td>进</td>
+								<td>2017-07-31 19:30:27</td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">42010344260</a>
+									</div>
+								</td>
+								<td>张子杰</td>
+								<td>进</td>
+								<td>2017-07-31 19:30:27</td>
+							</tr>
+							<tr>
+								<td>110</td>
+								<td>
+									<div class="core-value">
+										<a href="#">42010344260</a>
+									</div>
+								</td>
+								<td>张子杰</td>
+								<td>出</td>
+								<td>2017-07-31 19:30:27</td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">42010344260</a>
+									</div>
+								</td>
+								<td>张子杰</td>
+								<td>进</td>
+								<td>2017-07-31 19:30:27</td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">42010344260</a>
+									</div>
+								</td>
+								<td>张子杰</td>
+								<td>进</td>
+								<td>2017-07-31 19:30:27</td>
+							</tr>
+							<tr>
+								<td>110</td>
+								<td>
+									<div class="core-value">
+										<a href="#">42010344260</a>
+									</div>
+								</td>
+								<td>张子杰</td>
+								<td>出</td>
+								<td>2017-07-31 19:30:27</td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">42010344260</a>
+									</div>
+								</td>
+								<td>张子杰</td>
+								<td>进</td>
+								<td>2017-07-31 19:30:27</td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">42010344260</a>
+									</div>
+								</td>
+								<td>张子杰</td>
+								<td>进</td>
+								<td>2017-07-31 19:30:27</td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">42010344260</a>
+									</div>
+								</td>
+								<td>张子杰</td>
+								<td>进</td>
+								<td>2017-07-31 19:30:27</td>
+							</tr>
+							<tr>
+								<td>109</td>
+								<td>
+									<div class="core-value">
+										<a href="#">42010344260</a>
+									</div>
+								</td>
+								<td>张子杰</td>
+								<td>进</td>
+								<td>2017-07-31 19:30:27</td>
+							</tr>
+						</table>
+						<div class="data-plugin-page">
+							<div class="left">
+								<a href="#">&lt;</a>
+								<a class="hover" href="#">1</a>
+								<a href="#">2</a>
+								<a href="#">3</a>
+								<a href="#">4</a>
+								<a href="#">5</a>
+								<a href="#">...</a>
+								<a href="#">9</a>
+								<a href="#">&gt;</a>
+							</div>
+							<div class="right">显示1~9条 共100条</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	</body>
+</html>
